@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 # Created By: Christopher El-Murr
-# Date: 09 20, 2025
-# This program is a basic math calculator capable of calculating the area and perimeter of a rectangle vVIA user input
+# Date: 09 18, 2025
+# This program is a basic math calculator capable of calculating the area and perimeter of a rectangle
 
-
-score = int("5")
-string = int("6")
+#Enter values below
+length = 6
+width = 4
 
 
 def main():
-    print("For a rectangle with length int and width string")
+    print("For a rectangle with length (length) cm and width (width) cm")
     print()
-    print("The area is:{}cm^2".format(score * string))
-    print("The perimeter is:{}cm".format(2 * (score + string)))
+    print("The area is:{}cm^2".format((length) * (width)))
+    print("The perimeter is:{}cm".format(2 * ((length) + (width))))
 
 
 if __name__ == "__main__":
